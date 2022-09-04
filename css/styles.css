@@ -1,0 +1,22 @@
+/* NOTE: Internal CSS. An internal style sheet may be used if one single HTML page has a unique style implemented in the head section. The <style> HTML element contains style information for a document, or part of a document. It contains CSS, which is applied to the contents of the document containing the <style> element. The <style> element must be included inside the <head> of the document. In general, it is better to put your styles in external stylesheets and apply them using <link> elements.*/
+body {
+  background-color: #EEEEEE;
+}
+hr {
+  border: 0px;
+  border-top: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 100%;
+  /* NOTE: Can specify terms in percentage */
+}
+h1 {
+  color: #393E46;
+}
+h3 {
+  color: #393E46;
+}
+.profile-pic:hover {
+  background-color: gold;
+}
+/* NOTE: Pseudoclass: A CSS pseudo-class is a keyword added to a selector that specifies a special state of the selected element(s). For example, :hover can be used to change a button's color when the user's pointer hovers over it */
